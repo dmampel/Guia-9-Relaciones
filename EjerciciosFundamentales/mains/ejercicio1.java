@@ -5,10 +5,10 @@
  */
 package EjerciciosFundamentales.mains;
 
-import EjerciciosFundamentales.entidades.Perro;
-import EjerciciosFundamentales.entidades.Persona;
-import EjerciciosFundamentales.servicios.PerroServicio;
-import EjerciciosFundamentales.servicios.PersonaServicio;
+import Entidades.Perro;
+import Entidades.Persona;
+import Servicios.PerroServicio;
+import Servicios.PersonaServicio;
 
 public class ejercicio1 {
 

@@ -1,6 +1,6 @@
-package EjerciciosFundamentales.entidades;
+package Entidades;
 
-import EjerciciosFundamentales.entidades.Enumeraciones.PerroTamanio;
+import EjerciciosFundamentales.entidades.Utilidades.PerroTamanio;
 
 public class Perro {
 

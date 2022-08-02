@@ -1,4 +1,4 @@
-package EjerciciosFundamentales.entidades;
+package Entidades;
 
 
 public class Persona {

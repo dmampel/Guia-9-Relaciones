@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EjerciciosFundamentales.servicios;
+package Servicios;
 
 
-import EjerciciosFundamentales.entidades.Perro;
-import EjerciciosFundamentales.entidades.Persona;
+import Entidades.Perro;
+import Entidades.Persona;
 import java.util.Scanner;
 
 public class PersonaServicio {

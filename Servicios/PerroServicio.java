@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package EjerciciosFundamentales.servicios;
+package Servicios;
 
-import EjerciciosFundamentales.entidades.Enumeraciones.PerroTamanio;
-import EjerciciosFundamentales.entidades.Perro;
+import EjerciciosFundamentales.entidades.Utilidades.PerroTamanio;
+import Entidades.Perro;
 import java.util.Scanner;
 
 public class PerroServicio {
