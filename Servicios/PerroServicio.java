@@ -7,6 +7,7 @@ package Servicios;
 
 import EjerciciosFundamentales.entidades.Utilidades.PerroTamanio;
 import Entidades.Perro;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PerroServicio {
@@ -33,5 +34,19 @@ public class PerroServicio {
     
     public void mostrarPerro(Perro p){
         System.out.println(p.toString());
+    }
+    
+    public ArrayList<Perro> fabricaPerros(int cantidad){
+        
+        ArrayList<Perro> perros = new ArrayList();
+        
+        for (int cont = 0; cont < cantidad; cont++) {
+            Perro p = new Perro();
+            p.setNombre("perro " +cont);
+            p.setDueño(false);
+            perros.add(p);
+            
+        }
+        return perros;
     }
 }

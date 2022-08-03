@@ -8,16 +8,27 @@ public class Perro {
     private String raza;
     private int edad;
     private PerroTamanio tamanio;
+    private boolean dueño;
 
     public Perro() {
     }
 
-    public Perro(String nombre, String raza, int edad, PerroTamanio tamanio) {
+    public Perro(String nombre, String raza, int edad, PerroTamanio tamanio, boolean dueño) {
         this.nombre = nombre;
         this.raza = raza;
         this.edad = edad;
         this.tamanio = tamanio;
+        this.dueño = dueño;
     }
+
+    public boolean getDueño() {
+        return dueño;
+    }
+
+    public void setDueño(boolean dueño) {
+        this.dueño = dueño;
+    }
+
 
     public String getNombre() {
         return nombre;

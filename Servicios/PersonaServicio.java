@@ -8,6 +8,7 @@ package Servicios;
 
 import Entidades.Perro;
 import Entidades.Persona;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PersonaServicio {
@@ -39,6 +40,19 @@ public class PersonaServicio {
         
         System.out.println(p.toString());
         
+    }
+    
+    public ArrayList<Persona> fabricaPersonas(int cantidad){
+        
+        ArrayList<Persona> personas = new ArrayList();
+        for (int cont = 0; cont < cantidad; cont++) {
+            Persona p = new Persona();
+            p.setNombre("persona " +(cont + 1));
+            
+            personas.add(p);
+        }
+        
+        return personas;
     }
 
 }
